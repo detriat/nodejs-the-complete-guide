@@ -1,0 +1,10 @@
+extends ../../layouts/main.pug
+
+block content
+    .container
+        form.form-inline(action="/admin/products" method="POST")
+            .form-group.mx-sm-3.mb-2
+                label.sr-only(for="staticEmail2") Product name
+                input.form-control#staticEmail2(type="text" name="title" placeholder="Book")
+
+            button.btn.btn-primary.mb-2(type="submit") Add

@@ -1,0 +1,6 @@
+.products-grid.row
+    each product in products
+        .col-md-4
+            include product_tile.pug
+    else
+        p There are no products
