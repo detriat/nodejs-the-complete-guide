@@ -1,4 +1,5 @@
 const express = require('express');
+const ejs = require('ejs');
 
 const bodyParser = require('body-parser');
 const path = require('path');
@@ -6,7 +7,7 @@ const path = require('path');
 const app = express();
 const products = [];
 
-app.set('view engine', 'pug');
+app.set('view engine', 'ejs');
 app.set('views', 'views');
 
 app.use(bodyParser.urlencoded({ extended: false }));

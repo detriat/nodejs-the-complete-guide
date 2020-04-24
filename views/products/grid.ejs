@@ -1,0 +1,9 @@
+<div class="products-grid row">
+    <% if (products.length > 0) { %>
+        <% for (product of products) { %> 
+            <div class="col-md-4"> <%- include('product-tile.ejs') %>  </div>
+        <% } %> 
+    <% } else { %>
+        <p>There are no products</p>
+    <% } %> 
+</div>
