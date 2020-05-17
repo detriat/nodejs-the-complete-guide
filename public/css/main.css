@@ -15,8 +15,17 @@ main {
   margin: auto;
 }
 
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
 form {
   display: inline;
+}
+
+.centered {
+    text-align: center;
 }
 
 .main-header {
@@ -191,6 +200,10 @@ form {
 .btn:active {
   background-color: #00695c;
   color: white;
+}
+
+.main-image img {
+    max-width: 400px;
 }
 
 @media (min-width: 768px) {

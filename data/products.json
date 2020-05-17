@@ -1,1 +1,19 @@
-[{"title":"A Book","imageUrl":"https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg","description":"This is an awesome book!","price":"19"}]
+[{
+    "id": 1,
+    "title": "A Book",
+    "imageUrl": "https://www.publicdomainpictures.net/pictures/10000/velka/1-1210009435EGmE.jpg",
+    "description": "This is an awesome book!",
+    "price": "19"
+}, {
+    "title": "Magazine",
+    "imageUrl": "https://www.success.com/wp-content/uploads/2018/07/SUCCESS_mag_fan_sm.png",
+    "description": "Olala",
+    "price": "250",
+    "id": "0.22086908879420664"
+}, {
+    "title": "Test Magazine",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRlzK7pFgN9zlUqz-1VKeccezTlyuEeQC4VHFKbJDwiqNn15RsY&usqp=CAU",
+    "description": "Test 222",
+    "price": "9.99",
+    "id": "9010923034066918"
+}]
