@@ -15,17 +15,12 @@ main {
   margin: auto;
 }
 
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
-}
-
 form {
   display: inline;
 }
 
 .centered {
-    text-align: center;
+  text-align: center;
 }
 
 .main-header {
@@ -202,8 +197,15 @@ form {
   color: white;
 }
 
-.main-image img {
-    max-width: 400px;
+.btn.danger {
+  color: red;
+  border-color: red;
+}
+
+.btn.danger:hover,
+.btn.danger:active {
+  background: red;
+  color: white;
 }
 
 @media (min-width: 768px) {
